@@ -194,13 +194,6 @@ My dashboard had grown a star field, a mascot and a live map, and it used 60 % o
 - Move the last services over to passkey sign-in
 - A full off-site copy of every container, not just the most important data
 
-## What I learned
-
-- **Measure before you change.** Most "the server is slow" moments were one job at the wrong time, not weak hardware.
-- **Schedule around each other.** Backups, re-encodes and scans on the same disk at the same time will take everything down.
-- **Alerts must be rare to be read.** If everything pings, nothing gets noticed.
-- **A backup only counts once you have restored it.**
-
 ---
 
 Made by Mohammad Issa

@@ -84,6 +84,26 @@ Every service lives in its own small Linux container (LXC), so one can break or 
 
 My Homepage dashboard shows the whole lab at a glance: service status, CPU, RAM, disk and temperatures, a live map of blocked bot attempts, and a small animated mascot that reacts when something goes down.
 
+<p align="center">
+  <img src="images/dashboard.png" width="900" alt="Homepage dashboard: server stats, Proxmox, Uptime Kuma, Beszel, AdGuard, Jellyfin and the music server">
+</p>
+
+<p align="center"><sub>Server stats, service cards and what is playing on my music server right now.</sub></p>
+
+<p align="center">
+  <img src="images/status-and-bot-radar.png" width="900" alt="Status row and live bot radar">
+</p>
+
+<p align="center"><sub>Status row and the live bot radar: every dot is an automated attack attempt from the internet, all blocked. "Got in" stays at 0.</sub></p>
+
+<p align="center"><sub>A few cards are blurred on purpose.</sub></p>
+
+### 📱 Apps that run on the lab
+
+| [Issa Music](https://github.com/MohammadIssa04/issa-music) | [TV Home](https://github.com/MohammadIssa04/tv-home) |
+|---|---|
+| <img src="https://raw.githubusercontent.com/MohammadIssa04/issa-music/main/images/player.webp" width="260" alt="Issa Music player"> | <img src="https://raw.githubusercontent.com/MohammadIssa04/tv-home/main/images/home.png" width="460" alt="TV Home screen"> |
+
 ## 💡 What I learned
 
 - **Measure before you change.** Most "the server is slow" moments were one job at the wrong time, not weak hardware.

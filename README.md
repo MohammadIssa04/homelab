@@ -12,7 +12,7 @@
 ![Break-ins](https://img.shields.io/badge/break--ins-0-2ea44f?style=flat-square)
 
 <p align="center">
-  <img src="images/dashboard.png" width="900" alt="Homepage dashboard: server stats, Proxmox, Uptime Kuma, Beszel, AdGuard, Jellyfin and the music server">
+  <img src="images/dashboard-live.gif" width="900" alt="The live dashboard: server stats, service cards and a small mascot keeping watch">
 </p>
 
 > A write-up of my setup, not a config dump. Addresses, names, keys and anything else private are left out on purpose.
@@ -111,7 +111,7 @@ Every service lives in its own small Linux container (LXC), so one can break or 
 ## The internet keeps knocking
 
 <p align="center">
-  <img src="images/status-and-bot-radar.png" width="900" alt="Status row and live bot radar">
+  <img src="images/bot-radar-live.gif" width="900" alt="Live bot radar: every dot is a blocked attempt">
 </p>
 
 No ports are forwarded on the router, so the server itself is invisible from the internet. One small read-only page is published through the VPN provider, and that is where the bots show up: a new attempt every few minutes, from all over the world, hunting for `/.env`, `/.git` and old WordPress pages.
@@ -159,6 +159,20 @@ My dashboard had grown a star field, a mascot and a live map, and it used 60 % o
 
 **Fix:** draw the map once, animate only what moves, pause when the tab is hidden, drop the blur. The extras now cost close to nothing.
 </details>
+
+## Screenshots
+
+<p align="center">
+  <img src="images/dashboard.png" width="900" alt="Homepage dashboard: server stats, Proxmox, Uptime Kuma, Beszel, AdGuard, Jellyfin and the music server">
+</p>
+
+<p align="center"><sub>Server stats, service cards and what is playing on my music server right now.</sub></p>
+
+<p align="center">
+  <img src="images/status-and-bot-radar.png" width="900" alt="Status row and live bot radar">
+</p>
+
+<p align="center"><sub>Status row: VPN, internet speed, the private VPN mesh, server health and storage. A few cards are blurred on purpose.</sub></p>
 
 ## Security
 
